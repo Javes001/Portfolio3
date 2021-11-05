@@ -1,0 +1,116 @@
+.nav-top0{
+    background-image:url('Images/pic15.jfif') ;
+    width: 1500;
+    top: 100%;
+    right: 100%;
+    left: 100%;
+}
+
+.nav-top1{
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+    width:100% ;
+    padding:15px;
+
+}
+.nav-bar a{
+    text-decoration: none;
+    padding: 15px;
+    color: wheat;
+    justify-content: flex-end;
+}
+.nav-bar a:hover{
+    color: chartreuse;
+    border-bottom: 1px solid chartreuse;
+
+}
+
+.logo img{ 
+    width: 80px;
+    height: 80px;
+
+}
+.logo-items{
+    display: block;
+    float: left;
+    height: auto;
+    
+
+}
+.logo-item{
+    float: left;
+    height: 250px;
+    width: 250px;
+    padding: 0px;
+
+}
+.contents{
+    padding-bottom: 25px;
+    align-content: center;
+}
+.logo1 {
+    width: 100%;
+    float: right;
+    padding-right: 0px;
+}
+.logo1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    
+}
+
+.nav-bottom0 img{
+    width: 30%;
+    height: 30%;
+    border-radius:100% ;
+    padding:0px;
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 15px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter-square {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-whatsapp{
+      background: forestgreen;
+      color: white;
+  }
+  .fa-snapchat-ghost{
+      background: yellow;
+      color: white;
+  }
+  .fa-linkedin-square{
+      background: #0077b5;
+      color: white;
+  }
+ .fa-instagram{
+     background:tomato;
+     color: white;
+ }
+ .fa-youtube-square{
+ background-color: red;
+ color:white;
+ }
